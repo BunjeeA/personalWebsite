@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.whole{
+    flex-direction: row;
+}
+
+.sidebar{
+    flex-direction: column;
+    position: fixed;
+    color: #D1CAA1;
+    background: #050404;
+    width: 250px;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+#logo{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    color: #980B1C;
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+ul {
+    font-family: 'Raleway', sans-serif;
+    list-style-type: none;
+    margin-top: 90px;
+    /* margin-bottom: 250px; */
+    padding: 0;
+    background-color: #050404;
+
+}
+
+li a {
+    display: block;
+    text-align: left;
+    color: #D1CAA1;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 22px;
+    text-decoration: none;
+}
+  
+  li a.active {
+    color: #980B1C;
+}
+
+.footer{
+    position: absolute;
+    bottom: 30px;
+    color: #D4D6B9;
+    font-family: 'Montserrat', sans-serif;    
+    font-size: 18px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+h3{
+    margin: 3px;
+}
+
+.textScroll{
+    position: absolute;
+    display: block;
+    flex-direction: column;
+    left: 250px;
+    top: 0;
+}
+
+.homeContainer{
+    background-color: #66717E;
+    margin: 0;
+}
+
+.aboutContainer{
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
+.skillsContainer{
+    background-color: #EBEBEB;
+    margin: 0;
+}
+
+.portfolioContainer{
+    background-color: #F5F5F5;
+    margin: 0;
+}
+
+.contactContainer{
+    background-color: #EBEBEB;
+    margin: 0;
+}
+
+.headers{
+    margin:0px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;    
+
+}
+
+.containerText{
+    text-align: left;
+    margin:0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: -60px;
+}
+
+.homeText{
+    padding: 0;
+    margin: 0;
+    font-size: 150px;
+
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;    
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    left: 350px;
+    top: 300px;
+}
+
+.descript{
+    font-size: 20px;
+    margin: 0px;
+}
+
+#mldemo{
+    padding-top: 20px;
+}
+
+#aboutimg{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+#skillsimg{
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+#headshot{
+    padding-top: 40px;
+    padding-left: 450px;
+}
